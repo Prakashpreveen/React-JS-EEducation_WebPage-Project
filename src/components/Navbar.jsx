@@ -31,7 +31,7 @@ const NavbarMenu = [
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="relative z-20">
       <div className="container py-10 flex justify-between items-center">
         {/* Logo Section */}
         <div>
